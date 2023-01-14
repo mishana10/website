@@ -65,7 +65,7 @@ a:link {
     justify-content: flex-start;
 }
 
-button {
+.button button {
     background-color: #3882f6;
     font-weight: bold;
     color: white;
@@ -121,4 +121,76 @@ button {
     display: flex;
     list-style-type: none;
     text-align: center;
+}
+
+.quote_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    
+}
+
+.quote {
+    align-self: center;
+    font-size: 30px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 450px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+.blue_rect {
+    display: flex;
+    margin: 150px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.in_box {
+    display: flex;
+    gap: 350px;
+}
+
+.two_texts {
+    color: white;
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+.button_blue {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.button_blue button {
+    background-color: #3882f6;
+    font-weight: bold;
+    color: white;
+    border-radius:8px;
+    border: white solid 2px;
+    font-size: large;
+    min-height: 50px;
+    min-width: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer .copy {
+    font-style: italic;
 }
